@@ -18,3 +18,51 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Override the default bootstrap Nar bar */
+.navbar {
+    background-color: darkslategrey;
+}
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.nav-link {
+    color: white;
+}
+
+li {
+    font-size: 17px;
+}
+
+    li .nav-link:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+.navbar-nav flex-grow-1 {
+    color: lightseagreen;
+}
+/* course layout*/
+.course{
+    list-style: none;
+}
+.course > li{
+    position: relative;
+    margin-bottom: 30px;
+}
+.course > li .date{
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    width: 60px;
+    border-radius: 8px;
+}
+.course > li .details{
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
